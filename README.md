@@ -1,7 +1,54 @@
 # 🌲 Algerian Forest Fires – Data Cleaning, EDA & Machine Learning Prediction
 
-This repository contains the full workflow for analyzing and predicting forest fires in Algeria using the **Algerian Forest Fires Dataset**.
-It includes **data preprocessing**, **exploratory data analysis (EDA)**, **model training**, and **saved machine-learning artifacts** for deployment.
+### **📍 Dataset Overview**
+
+The **Algerian Forest Fires Dataset** contains meteorological and fire-weather measurements collected from two regions in Algeria:
+
+* **Bejaia** (Northeast Algeria)
+* **Sidi Bel-Abbès** (Northwest Algeria)
+
+Each region contributes **122 instances**, giving a total of **244 samples**.
+
+### **📅 Time Period**
+
+Data was collected **from June 2012 to September 2012**, capturing the peak of the fire season.
+
+---
+
+### **📊 Dataset Composition**
+
+* **Total instances:** 244
+* **Regions:**
+
+  * 122 Bejaia
+  * 122 Sidi Bel-Abbès
+* **Input attributes:** 11
+* **Output attribute:** 1 (target class)
+* **Class distribution:**
+
+  * **Fire:** 138 instances
+  * **Not fire:** 106 instances
+
+---
+
+### **📑 Attributes Included**
+
+The 11 input features consist of:
+
+* Meteorological variables (Temperature, RH, Wind speed, Rain)
+* Fire Weather Index (FWI) system components:
+
+  * FFMC, DMC, DC, ISI, BUI, FWI
+* Date-related fields (day, month, year)
+
+The **output attribute** is:
+
+* `Classes` → *fire* / *not fire*
+
+---
+
+If you'd like, I can integrate this directly into the previously generated README or format it as a standalone documentation section.
+
 
 ---
 
