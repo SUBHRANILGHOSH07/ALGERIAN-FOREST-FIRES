@@ -1,7 +1,3 @@
-
-
----
-
 # 🌲 Algerian Forest Fires – Data Cleaning, EDA & Machine Learning Prediction
 
 This repository contains the full workflow for analyzing and predicting forest fires in Algeria using the **Algerian Forest Fires Dataset**.
@@ -185,8 +181,3 @@ Feel free to **fork** this project and submit a PR.
 
 This project is open-source under the **MIT License**.
 
----
-
-
-
-Just tell me!
